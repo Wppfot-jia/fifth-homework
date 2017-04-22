@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link href="./css/index.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <div class="contain-first" id="contain_first">
+            <div class="top">
+                <div class="top-nav">
+                    <ul>
+                        <li>头条</li>
+                        <li>娱乐</li>
+                        <li>体育</li>
+                        <li>汽车</li>
+                        <li>科技</li>
+                        <li onclick="change_page()"><img src="./image/select.png"></li>
+                    </ul>
+                </div>
+
+                <div class="top-image">
+                    <img src="./image/top.png">
+                </div>
+
+                <div class="top-footer">
+                    <div class="footer-left">
+                        <img src="./image/collect.png">
+                        <div class="footer-right">脸谱阅后即焚应用排名下跌</div>
+                    </div>
+                    <div class="ture-right">
+                            <img src="./image/change.png">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bottom">
+                <ul class="bottom-message">
+                    <li>
+                        <div class="bottom-left">
+                            <img src="./image/c1.png">
+                        </div>
+                        <div class="bottom-right">
+                            <div class="title">
+                                脸谱阅后即焚应用排名下跌
+                            </div>
+                            <div class="text">
+                                阅后即焚服务一度跻身App Stsrc前50名免费应用排行榜。
+                                <div class="text-right-tip">
+                                    8907跟帖
+                                   <img src="./image/special.png">
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="bottom-left">
+                            <img src="./image/c2.png">
+                        </div>
+                        <div class="bottom-right">
+                            <div class="title">
+                                高速将构建新能源车快充网络
+                            </div>
+                            <div class="text">  
+                                中国政府网指导意见，明确以发展纯电动汽车为主要战略。
+                                <div class="text-right-tip-secend">
+                                    4.8万跟帖
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="bottom-left">
+                            <img src="./image/c3.png">
+                        </div>
+                        <div class="bottom-right">
+                            <div class="title">
+                                诺基亚北京工厂裁3千人或撤出
+                            </div>
+                            <div class="text">
+                                上周五微软也已启动诺基亚北京工厂裁员计划，或将迁离北京。
+                                <div class="text-right-tip">
+                                    <img src="./image/live.png">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="bottom-left">
+                            <img src="./image/c4.png">
+                        </div>
+                        <div class="bottom-right">
+                            <div class="title">
+                                老罗致歉：锤子预约18万台？
+                            </div>
+                            <div class="text"> 
+                                锤子遇到严重的产能问题，而且良品率很低，品控太差。
+                                <div class="text-right-tip">
+                                    <img style="width:40px" src="./image/photo.png">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="contain-secend" id="contain_secend">
+            <div class="s-top">
+                <p>切换栏目</p>
+                <img onclick="change_page_secend()" src="./image/select-top.png">
+                <p class="sp-p" id="sp_p" onclick="delateLi()">排序删除</p>
+                <p class="de-p" id="de_p" onclick="delateLi()">删除</p>
+            </div>
+
+            <div class="s-secend">
+                <div class="select-first" >
+                    <ul>
+                        <li class="select_first">
+                            <div class="inner">头条</div>
+                        </li>
+                        <li class="select_first">
+                            <div class="inner">娱乐</div>
+                        </li>
+                        <li class="select_first">
+                            <div class="inner">体育</div>
+                        </li>
+                        <li class="select_first">
+                            <div class="inner">财经</div>
+                        </li>
+                        <li class="select_first">
+                            <div class="inner">科技</div>
+                        </li>
+                        <li class="select_first">
+                            <div class="inner">汽车</div>
+                        </li>
+                        <li class="select_first">
+                            <div class="inner">北京</div>
+                        </li>
+                        <li class="select_first">
+                            <div class="inner">军事</div>
+                        </li>
+                        <li class="select_first">
+                            <div class="inner">房产</div>
+                        </li>
+                        <li class="select_first">
+                            <div class="inner">数码</div>
+                        </li>
+                        <li class="select_first">
+                            <div class="inner">手机</div>
+                        </li>
+                        <li class="select_first">
+                            <div class="inner">移动互联</div>
+                        </li>
+                        <div class="line-first"></div>
+                        <div class="line-secend"></div>
+                       
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="s-third">
+                <p>点击添加更多栏目</p>
+            </div>
+
+            <div class="s-forth">
+                <ul>
+                    <li>
+                        <div class="inner">头条</div>
+                    </li>
+                    <li>
+                        <div class="inner">娱乐</div>
+                    </li>
+                    <li>
+                        <div class="inner">体育</div>
+                    </li>
+                    <li>
+                        <div class="inner">财经</div>
+                    </li>
+                    <li>
+                        <div class="inner">科技</div>
+                    </li>
+                    <li>
+                        <div class="inner">汽车</div>
+                    </li>
+                    <li>
+                        <div class="inner">北京</div>
+                    </li>
+                    <li>
+                        <div class="inner">军事</div>
+                    </li>
+                    <li>
+                        <div class="inner">房产</div>
+                    </li>
+                    <li>
+                        <div class="inner">数码</div>
+                    </li>
+                    <li>
+                        <div class="inner">手机</div>
+                    </li>
+                    <li>
+                        <div class="inner">移动互联</div>
+                    </li>
+                    <li>
+                        <div class="inner">头条</div>
+                    </li>
+                    <li>
+                        <div class="inner">娱乐</div>
+                    </li>
+                    <li>
+                        <div class="inner">体育</div>
+                    </li>
+                    <li>
+                        <div class="inner">财经</div>
+                    </li>
+                    <li>
+                        <div class="inner">科技</div>
+                    </li>
+                    <li>
+                        <div class="inner">汽车</div>
+                    </li>
+                    <li>
+                        <div class="inner">北京</div>
+                    </li>
+                    <li>
+                        <div class="inner">军事</div>
+                    </li>
+                    <li>
+                        <div class="inner">房产</div>
+                    </li>
+                    <li>
+                        <div class="inner">数码</div>
+                    </li>
+                    <li>
+                        <div class="inner">手机</div>
+                    </li>
+                    <li>
+                        <div class="inner">移动互联</div>
+                    </li>
+            </div>
+        </div>
+    </body>
+    <script src="./javascript/index.js"></script>
+</html>
+
+

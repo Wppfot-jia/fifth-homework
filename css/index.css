@@ -1,0 +1,362 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	background-color:rgb(56,56,56);
+
+}
+.contain-first{
+
+	width:800px;
+	border:15px solid rgb(56,56,56);
+	background-color:white;
+	margin:0 auto;
+
+}
+
+
+
+
+
+.top{
+	width:100%;
+	height:555px;
+
+}
+.top-nav{
+    width:100%;
+    height:90px;
+    background-color:rgb(230,230,230);
+}
+
+.top-nav li{
+	width:78px;
+	height:90px;
+	color:rgb(26,26,26);
+	border-bottom:8px solid rgb(190,2,1);
+    float:left;
+	margin-left:58px;
+	list-style-type:none;
+	line-height:82px;
+	font-size:38px;
+
+}
+
+
+
+
+.top-nav li:first-child{
+	margin-left:45px;
+}
+
+.top-nav li:last-child{
+	width:110px;
+	height:90px;
+	padding-top:7px;
+	background-color:rgb(230,230,230);
+	margin-top:-90px;
+	border-left:3px solid rgb(206,206,206);
+	border-bottom:none;
+	float:right;
+}
+.top-nav img{
+	width:50px;
+	height:30px;
+	
+    margin-left:30px;
+   
+}
+
+
+
+
+
+.top-image{
+	width:100%;
+	height:400px;
+
+}
+.top-image img{
+	width:100%;
+	height:100%;
+}
+.top-footer{
+	width:100%;
+	height:65px;
+	background-color:rgb(220,220,220);
+}
+.footer-left{
+	width:520px;
+	height:50px;
+	margin-left:20px;
+	
+	float:left;
+}
+
+.footer-left img{
+	width:70px;
+	height:35px;
+	margin-top:17px;
+	margin-left:15px;
+	float:left;
+}
+.footer-right{
+	width:400px;
+	height:35px;
+	margin-top:13px;
+	float:right;
+	font-size:30px;
+	color:rgb(90,90,90);
+	
+}
+.ture-right img{
+	float:right;
+	width:95px;
+	height:63px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bottom{
+	width:100%;
+
+	
+}
+
+.bottom-message{
+	width:740px;
+
+
+	list-style-type:none;
+	margin:0 auto;
+}
+.bottom-message li{
+    width:100%;
+    height:155px;
+
+    margin-top:10px;
+    border-bottom:2px solid rgb(230,230,230);
+}
+.bottom-left{
+	width:175px;
+	height:130px;
+	background-color:red;
+	float:left;
+}
+.bottom-left img{
+	width:100%;
+	height:100%;
+}
+.bottom-right{
+	width:540px;
+	height:130px;
+
+	float:right;
+}
+.title{
+	height:50px;
+    color:rgb(17,17,17);
+	font-size:37px;
+
+}
+.text{
+	height:76px;
+	color:rgb(128,128,128);
+	font-size:30px;
+	margin-top:4px;
+}
+.text-right-tip{
+	width:210px;
+	height:35px;
+	margin-top:8px;
+	float:right;
+}
+.text-right-tip img{
+    width:68px;
+    float:right;
+}   
+.text-right-tip-secend{
+    width:136px;
+	height:35px;
+	
+	float:right;
+}
+
+
+
+
+
+
+.contain-secend{
+	width:800px;
+	border:15px solid rgb(56,56,56);
+	background-color:white;
+	margin:0 auto;
+	display:none;
+
+}
+.s-top{
+	width:100%;
+	height:90px;
+	background-color:rgb(230,230,230);
+	
+}
+.s-top p{
+	font-size:35px;
+	float:left;
+	margin-top:25px;
+	margin-left:30px;
+	color:rgb(154,154,154);
+}
+.s-top .sp-p{
+    float:right;
+    margin-right:80px;
+    color:rgb(193,1,19);
+}
+.s-top .de-p{
+	display:none;
+    float:right;
+    margin-right:80px;
+    color:rgb(193,1,19);
+}
+.s-top img{
+	float:right;
+	width:50px;
+	height:30px;
+
+	margin-right:30px;
+	margin-top:30px;
+
+}
+.s-secend{
+	width:100%;
+	height:400px;
+	
+	padding:30px;
+}
+.select-first{
+	width:710px;
+	height:330px;
+
+	
+}
+.select-first li{
+	width:150px;
+	height:70px;
+	
+	list-style-type:none;
+	margin:10px;
+ 
+	margin-top:30px;
+	display:inline-block;
+	font-size:35px;
+	text-align:center;
+}
+.two{
+	background-color:silver;
+}
+
+.inner{
+    line-height:38px;
+    color:rgb(120,120,120);
+	width:150px;
+	height:38px;
+	border-right:2px solid rgb(212,212,212);
+	
+	margin-top:15px;
+}
+li:nth-child(4) .inner{
+    border-right:none;
+}
+li:nth-child(8) .inner{
+    border-right:none;
+}
+li:nth-child(12) .inner{
+    border-right:none;
+}
+
+.line-first{
+	width:670px;
+	height:2px;
+	
+	margin:0 auto;
+	margin-top:-208px;
+	background-color:rgb(212,212,212);
+}
+.line-secend{
+	width:670px;
+	height:2px;
+	
+	margin:0 auto;
+	margin-top:108px;
+	background-color:rgb(212,212,212);
+}
+
+.s-third{
+	width:100%;
+	height:95px;
+	background-color:rgb(230,230,230);
+}
+.s-third p{
+	font-size:35px;
+	float:left;
+	margin-top:25px;
+	margin-left:30px;
+	color:rgb(154,154,154);
+}
+.s-forth{
+	width:100%;
+	height:580px;
+}
+.s-forth ul{
+	width:100%;
+	height:570px;
+	margin-top:20px;
+
+}
+.s-forth li{
+	width:150px;
+	height:70px;
+	background-color:rgb(248,248,248);
+	font-weight:500;
+	list-style-type:none;
+	margin:10px;
+    border:2px solid rgb(200,200,200);
+	margin-top:15px;
+	margin-left:25px;
+	display:inline-block;
+	font-size:35px;
+	text-align:center;
+}
+.s-forth .inner{
+	color:rgb(91,91,91);
+	border:none;
+}
+
