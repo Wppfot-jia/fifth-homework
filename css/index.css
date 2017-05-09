@@ -8,8 +8,7 @@ body{
 
 }
 .contain-first{
-
-	width:800px;
+    width:800px;
 	border:15px solid rgb(56,56,56);
 	background-color:white;
 	margin:0 auto;
@@ -257,24 +256,23 @@ body{
 }
 .s-secend{
 	width:100%;
-	height:400px;
 	
+	position:relative;
 	padding:30px;
 }
 .select-first{
 	width:710px;
-	height:330px;
+	
 
 	
 }
 .select-first li{
+	cursor:pointer;
 	width:150px;
 	height:70px;
-	
 	list-style-type:none;
 	margin:10px;
- 
-	margin-top:30px;
+    margin-top:30px;
 	display:inline-block;
 	font-size:35px;
 	text-align:center;
@@ -282,7 +280,11 @@ body{
 .two{
 	background-color:silver;
 }
+.ture{
+    border:3px solid pink;
+    border-radius:3px;
 
+}
 .inner{
     line-height:38px;
     color:rgb(120,120,120);
@@ -292,6 +294,7 @@ body{
 	
 	margin-top:15px;
 }
+
 li:nth-child(4) .inner{
     border-right:none;
 }
@@ -302,20 +305,31 @@ li:nth-child(12) .inner{
     border-right:none;
 }
 
+li:nth-child(18) .inner{
+    border-right:none;
+}
+li:nth-child(22) .inner{
+    border-right:none;
+}
+li:nth-child(26) .inner{
+    border-right:none;
+}
+
+
 .line-first{
 	width:670px;
 	height:2px;
-	
-	margin:0 auto;
-	margin-top:-208px;
+	position:absolute;
+	left:50px;
+	top:150px;
 	background-color:rgb(212,212,212);
 }
 .line-secend{
 	width:670px;
 	height:2px;
-	
-	margin:0 auto;
-	margin-top:108px;
+	position:absolute;
+	left:50px;
+	top:258px;
 	background-color:rgb(212,212,212);
 }
 
@@ -342,6 +356,7 @@ li:nth-child(12) .inner{
 
 }
 .s-forth li{
+	cursor:pointer;
 	width:150px;
 	height:70px;
 	background-color:rgb(248,248,248);
@@ -350,7 +365,7 @@ li:nth-child(12) .inner{
 	margin:10px;
     border:2px solid rgb(200,200,200);
 	margin-top:15px;
-	margin-left:25px;
+	margin-left:26px;
 	display:inline-block;
 	font-size:35px;
 	text-align:center;
